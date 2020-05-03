@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    
+}
+section:nth-of-type(1){
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-image: url("../images/shoes.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+section > * {
+    position: relative;
+    z-index: 2;
+}
+section:nth-of-type(1):after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+nav{
+    transition: 1s ease;
+}
+.bg-dark{
+    background-color: rgba(0, 10, 0, 1) !important;
+}
+hr{
+    width: 10%;
+    height: 5px;
+    background:darkslategray;
+    margin: auto;
+    border: none; 
+    border-radius: 3px;
+}

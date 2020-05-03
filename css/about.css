@@ -1,0 +1,102 @@
+
+
+.Aboutme{
+  background-color:white;
+  padding-top: 10px;
+  /* padding: 20px 0px 200px 0px; */
+}
+.Aboutme h2{
+  color: rgb(2, 38, 53);
+  text-align: center;
+  margin-top: 0px;    
+}
+
+.aboutmeflexbox {
+  padding-top: 25px;
+  display: flex;   
+  flex-flow: row wrap; /* flex-direction: row;flex-wrap: wrap; */
+  justify-content:space-evenly; /*justify-content: center; */
+  align-items: center;   
+  text-align: center; 
+
+}
+
+@media screen and (max-width: 700px) {
+.aboutmeflexbox {   
+  flex-direction: column;
+} 
+
+
+}
+
+@media screen and (min-width: 700px){
+.aboutmeflexbox{
+  flex-direction: row;
+  justify-content:space-evenly;
+  flex-wrap: nowrap;
+} 
+}
+
+.sbox {
+    width: 500px;
+    background-color: #ddd;
+  }
+
+.skill {
+text-align: right;
+padding-top: 4px;
+padding-bottom: 0px;
+color: white;
+}
+
+
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11{
+background-color: darkslategray;
+}
+
+.skilltag{
+  position: absolute;
+  color: white;
+  width: 100px;
+  height: 28px;
+  background-color: gray;
+  /* transition: transform .2s; */
+}
+
+
+.skillhtml, .skillcss, .skilljs, .skillpython, .skillnodejs, .skillreactjs, .skillpostgres, .skilllite, .skillsql, .skilldjango, .skillasp {
+  transition: transform .2s;
+}
+.skillhtml:hover, .skilldjango:hover, .skillcss:hover, .skilljs:hover, .skillpython:hover, .skillnodejs:hover, .skillreactjs:hover, .skillpostgres:hover, .skilllite:hover, .skillsql:hover, .skillasp:hover{
+  transform: scale(1.1);
+}
+.photoskill {
+  padding-top: 25px;
+  display: flex;   
+  flex-flow: row wrap; /* flex-direction: row;flex-wrap: wrap; */
+  justify-content: space-evenly; /*justify-content: center; */
+  align-items: center;   
+  text-align: center; 
+  padding: 10px;
+
+}
+
+@media screen and (max-width: 700px) {
+.photoskill {   
+  flex-direction: column;
+}  
+}
+
+@media screen and (min-width: 700px){
+.photoskill{
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+} 
+}
+.sdfimg{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  
+}
