@@ -66,6 +66,17 @@ hr{
 }
 
 /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 320px) {
+    .herotext{
+        width: 230px;       
+    }
+    .herotext > h1{
+        font-size: 18px;
+    }
+    .herotext > p{
+        font-size: 12px;
+    }
+}
 @media only screen and (min-width: 320px) {
     .herotext{
         width: 300px;       
