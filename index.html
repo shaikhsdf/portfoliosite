@@ -6,6 +6,8 @@
     <title>Sadaf Shaikh!</title>
     <!-- fontawesome icons -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- check which one -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <!-- - -->
     <!-- bootstrap links -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
@@ -17,6 +19,7 @@
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/portfolio.css">
     <!-- -- -->
 </head>
 <body>
@@ -182,9 +185,118 @@
           <!-- - -->
       </div>   
   </section>
-  <section id="portfolio" style="padding: 100px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="portfolio" class="portfolio" style="padding: 100px;">
+    <div>
+      <h2>Portfolio</h2>
+    </div>
+    <hr>
+    <p></p>
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/fads (2).PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FADS ( Food At Door Step)</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/lms (1).png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Library Management with Kiosks and Barcode</h5>
+           <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/rac (3).PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rent A Car</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/sdc (1).PNG" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SDC College Website</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/snp.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Snapsdump</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/comingsoon.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Lets Poll!</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/comingsoon.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Wallet</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="portfolio/comingsoon.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">On The Way</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <section class="contact" id = "contact">
     <h5>Get in Touch With Me</h5>
     <hr>    
@@ -197,6 +309,11 @@
     </div>  
     
   </section>
+
+
+
+
+
   <footer style="bottom: 0; text-align: center; padding-bottom: 0px;">
     <p><a href="#home"><span class="pagelinks">Home</span></a> | 
       <a href="#about"><span class="pagelinks">About</span></a> | 
@@ -206,10 +323,21 @@
   </footer>
  
 
+
+
+
+
+
+
     <script>
         $(window).scroll(function(){
             $('nav').toggleClass('bg-dark', $(this).scrollTop() > 500);
         });
+        // $('img').mousedown(function (e) {
+        //   if(e.button == 4) { // right click
+        //     return false; // do nothing!
+        //   }
+        // }
     </script>
 </body>
 </html>

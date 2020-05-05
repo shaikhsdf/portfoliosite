@@ -69,6 +69,10 @@ background-color: darkslategray;
   height: 350px;
   border-radius: 50%;
   transition: 1s ease;
+  pointer-events: none;
+}
+img{
+  pointer-events: none;
 }
 
 @media only screen and (max-width: 320px) {
@@ -124,7 +128,8 @@ background-color: darkslategray;
   .sdfimg{
     width: 180px;
     height: 180px;
-    border-radius: 50%;    
+    border-radius: 50%;  
+      
   }
   .sbox {
     width: 310px;
