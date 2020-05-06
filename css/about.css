@@ -1,7 +1,7 @@
 
 
 .Aboutme{
-  background-color:white;
+  /* background-color:#F2F2F2; */
   padding-top: 10px;
   /* padding: 20px 0px 200px 0px; */
 }
@@ -35,7 +35,7 @@ color: white;
 
 
 .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11{
-background-color: darkslategray;
+background-color: #1A2A40;
 }
 
 .skilltag{

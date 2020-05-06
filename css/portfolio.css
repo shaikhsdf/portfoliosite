@@ -1,3 +1,8 @@
+.portfolio{
+    /* background-color: #bfd7d9; */
+    background-color:#F2F2F2;
+}
+
 .portfolio h2{
     color: rgb(2, 38, 53);
     text-align: center;
@@ -7,6 +12,7 @@
 .card-img-top{
     transition: .5s ease;
     backface-visibility: hidden;
+    background-color: #F2F2F2;
 }
 
 .overimg{
@@ -18,13 +24,16 @@
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    
 }
 
 .card:hover .card-img-top{
-    opacity: 0.3;
+    opacity: 0;
+    
 }
 .card:hover .overimg{
     opacity: 1;
+    
 }
 
 .info{
@@ -34,3 +43,11 @@
     padding: 10px 16px;
     font-weight: bold;
 }
+.card{
+    /* background-color: #bfd7d9; */
+    background-color:#F2F2F2;
+    border: none !important;
+   
+}
+
+

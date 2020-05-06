@@ -23,7 +23,8 @@
 } */
 .contact{
     text-align: center;
-    background: gainsboro;
+    /* background: #F2F2F2; */
+    bottom: 0px;
 }
 .contact hr{
     width: 10%;
@@ -49,6 +50,17 @@ i{
 }
 .pagelinks{
     text-decoration: none;
+   
+    color: darkcyan;
+   
+}
+.pagelinks:hover{
+    text-decoration: none;
+    color: #1A2A40;
+}
+footer a:hover{
+    text-decoration: none;
+    
 }
 footer p{
     text-align: center;

@@ -4,6 +4,9 @@
     /* box-sizing: border-box; */
     
 }
+body{
+    font-family: 'Aleo', sans-serif;
+}
 section:nth-of-type(1){
     padding: 20px;
     display: flex;
@@ -54,12 +57,12 @@ nav{
     transition: 1s ease;
 }
 .bg-dark{
-    background-color: rgba(0, 10, 0, 1) !important;
+    background-color: #233540 !important;
 }
 hr{
     width: 10%;
     height: 5px;
-    background:darkslategray;
+    background:#1A2A40;
     margin: auto;
     border: none; 
     border-radius: 3px;
