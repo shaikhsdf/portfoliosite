@@ -5,8 +5,10 @@
     
 }
 body{
-    font-family: 'Aleo', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
+
 section:nth-of-type(1){
     padding: 20px;
     display: flex;
@@ -16,7 +18,7 @@ section:nth-of-type(1){
     align-items: center;
     height: 100vh;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/shoes.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/shoes.jpg");
     background-position: center;
     background-size: cover;
 
