@@ -36,6 +36,21 @@
     
 }
 
+/* .col-sm:hover .pimgs{
+    opacity: 0;
+    
+}
+.col-sm:hover .overimg{
+    opacity: 1;
+    
+} */
+
+.pimgs{
+    height: 350px;
+}
+
+
+
 .info{
     /* background-color: darkslategray; */
     color: darkslategray;
@@ -53,10 +68,14 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 320px) {
- 
+    /* .pimgs{
+        height: 150px;
+    } */
 }
 @media only screen and (min-width: 320px) {
- 
+    /* .pimgs{
+        height: 150px;
+    } */
 }
 @media only screen and (min-width: 360px) {
     /* .card:hover .card-img-top{
@@ -87,6 +106,8 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
- 
+  .pimgs{
+        height: 350px;
+    }
 }
 
