@@ -12,8 +12,12 @@
 }
 .ih5{
   padding-top: 5px;
-  font-weight: bold;
-  color: rgb(74, 87, 87);
+  text-decoration: solid;
+  color: rgb(40, 66, 66);
+}
+.aboutdesc{
+  text-decoration: solid;
+  color: rgb(63, 83, 83);
 }
 .aboutmeflexbox {
   padding-top: 25px;
@@ -22,7 +26,6 @@
   justify-content:space-evenly; /*justify-content: center; */
   align-items: center;   
   text-align: center; 
-
 }
 
 .sbox {
