@@ -1,6 +1,6 @@
 .portfolio{
-    /* background-color: #bfd7d9; */
     background-color:#F2F2F2;
+    background-size: cover;
 }
 
 .portfolio h2{
@@ -26,17 +26,6 @@
     text-align: center;
     
 }
-
-
-
-/* .col-sm:hover .pimgs{
-    opacity: 0;
-    
-}
-.col-sm:hover .overimg{
-    opacity: 1;
-    
-} */
 
 .pimgs{
     height: 350px;
