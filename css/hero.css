@@ -16,7 +16,7 @@ section:nth-of-type(1){
     align-items: center;
     height: 100vh;
     color: white;
-    background-image: linear-gradient(rgba(32, 68, 77, 0.884), rgba(0, 0, 0, 0.6)), url("../images/shoes.jpg");
+    background-image: linear-gradient(rgba(2, 38, 53, 0.884), rgba(0, 0, 0, 0.6)), url("../images/shoes.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -30,6 +30,7 @@ section:nth-of-type(1){
     left: 50%;
     transform: translate(-50%, -50%);
     color: lightgrey;
+    /* color: black; */
 
     text-align: center;
     padding: 4px;
