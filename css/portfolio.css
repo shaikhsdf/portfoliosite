@@ -27,14 +27,7 @@
     
 }
 
-.card:hover .card-img-top{
-    opacity: 0;
-    
-}
-.card:hover .overimg{
-    opacity: 1;
-    
-}
+
 
 /* .col-sm:hover .pimgs{
     opacity: 0;
@@ -101,6 +94,14 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .card:hover .card-img-top{
+        opacity: 0;
+        
+    }
+    .card:hover .overimg{
+        opacity: 1;
+        
+    }
  
 }
 
@@ -108,6 +109,14 @@
 @media only screen and (min-width: 1200px) {
   .pimgs{
         height: 350px;
+    }
+    .card:hover .card-img-top{
+        opacity: 0;
+        
+    }
+    .card:hover .overimg{
+        opacity: 1;
+        
     }
 }
 
