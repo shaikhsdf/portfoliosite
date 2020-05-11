@@ -203,25 +203,21 @@
     <div class="row row-cols-1 row-cols-md-3">
       <div class="col mb-4 ">
         <div class="card">
-          <img src="portfolio/snp.png" class="card-img-top" alt="...">
+          <img src="portfolio/snp.png" class="card-img-top" alt="Snapsdump">
           <div class="overimg">
             <div class="info">
-              <h4>Snapsdump</h4>
-              <p>Python / Django / PostgreSQL / Javascript</p>
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#snapsdump" data-backdrop="true">Learn More</button>
             </div>
           </div>         
         </div>
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="portfolio/fads (2).PNG" class="card-img-top" alt="...">
+          <img src="portfolio/fads (2).PNG" class="card-img-top" alt="Food At Door Step">
          
           <div class="overimg">
             <div class="info">
-              <h4>FADS</h4>
-              <p> Python / PostgreSQL/ Javascript</p>
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#fads" data-backdrop="true">Learn More</button>
             </div>
           </div>
 
@@ -229,43 +225,37 @@
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="portfolio/lms (1).png" class="card-img-top" alt="...">
+          <img src="portfolio/lms (1).png" class="card-img-top" alt="Library Management System">
           <div class="overimg">
             <div class="info">
-              <h4>LMS Kiosks </h4>
-              <p>VB.NET / SQLSERVER</p>
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#lms" data-backdrop="true">Learn More</button>
             </div>
           </div>         
         </div>
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="portfolio/rac (7).PNG" class="card-img-top" alt="...">
+          <img src="portfolio/rac (1).PNG" class="card-img-top" alt="Rent A Car">
           <div class="overimg">
             <div class="info">
-              <h4>Rent A Car</h4>
-              <p>ASP.NET c# / SQL Server / BOOTSTRAP / InstamojoAPI</p>
-              <button class="btn btn-outline-info">Learn More</button>
+             
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#rac" data-backdrop="true">Learn More</button>
             </div>
           </div>         
         </div>
       </div>
       <div class="col mb-4">
         <div class="card">
-          <img src="portfolio/sdc (1).PNG" class="card-img-top" alt="...">
+          <img src="portfolio/sdc (1).PNG" class="card-img-top" alt="Shivaji Degree College Karwar">
           <div class="overimg">
             <div class="info">
-              <h4>SDC College</h4>
-              <p>ASP.NET c# / SQL Server / BOOTSTRAP</p> 
-              
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#sdc" data-backdrop="true">Learn More</button>
             </div>
           </div>
          
         </div>
       </div>
-      
+<!--       
       <div class="col mb-4">
         <div class="card">
           <img src="portfolio/poll.PNG" class="card-img-top" alt="...">
@@ -273,21 +263,19 @@
             <div class="info">
               <h4>Lets_Poll!</h4>
               <p>Python / Django / SQLite</p>
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#chatbot" data-backdrop="true">Learn More</button>
             </div>
           </div>
          
         </div>
-      </div>
+      </div> -->
 
       <div class="col mb-4">
         <div class="card">
-          <img src="portfolio/Coming Soon.png" class="card-img-top" alt="...">
+          <img src="portfolio/Coming Soon.png" class="card-img-top" alt="ChatBot">
           <div class="overimg">
             <div class="info">
-              <h4>--</h4>
-              <p>SASS / Python / Django / PostgreSQL</p>
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#chatbot" data-backdrop="true">Learn More</button>
             </div>
           </div>
          
@@ -296,14 +284,10 @@
     
       <div class="col mb-4">
         <div class="card">
-          <img src="portfolio/Coming Soon.png" class="card-img-top" alt="...">
-       
+          <img src="portfolio/Coming Soon.png" class="card-img-top" alt="wallet">       
           <div class="overimg">
             <div class="info">
-              <h4>ChatBot</h4>
-              <p>NodeJS / Javascript / DialogFlow </p>
-           
-              <button class="btn btn-outline-info">Learn More</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#wallet" data-backdrop="true">Learn More</button>
             </div>
           </div>
         
@@ -312,6 +296,283 @@
     </div>
 
   </section>
+  <!-- modals -->
+  
+  <div class="modal fade" id="snapsdump" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>Snapsdump</h4>
+            <p>Lets Dump Some Snaps!</p>
+          </div>          
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">  
+
+          <!-- slideshow -->
+        <div id="snpCarousel" class="carousel slide" data-ride="carousel" data-interval="500">  
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/portfoliosite/portfolio/snp.png" alt="Los Angeles" width="100%">
+            </div>
+          </div>          
+          <a class="carousel-control-prev" href="#snpCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#snpCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!-- -- -->
+        <p style="text-align: justify;">Snapsdump is my own creation inspired by my phone gallery. Its basically an online gallery with features as sharing to social media and direct printing. Build with the powerful combination of python, Django and PostgreSQL.</p>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div> -->
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="fads" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>FADS</h4>
+            <p>Food At Door Steps!</p>
+          </div>  
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          
+        <!-- slideshow -->
+        <div id="fadsCarousel" class="carousel slide" data-ride="carousel" data-interval="500">  
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/portfoliosite/portfolio/fads (3).PNG" alt="FADS" width="100%">
+            </div>
+            <div class="carousel-item">
+              <img src="/portfoliosite/portfolio/fads (4).PNG" alt="FADS" width="100%">
+            </div>
+            <div class="carousel-item">
+              <img src="/portfoliosite/portfolio/fads (5).PNG" alt="FADS" width="100%">
+            </div> 
+            <div class="carousel-item">
+              <img src="/portfoliosite/portfolio/fads (6).PNG" alt="FADS" width="100%">
+            </div>              
+          </div>          
+          <a class="carousel-control-prev" href="#fadsCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#fadsCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!-- -- -->
+        <p style="text-align: justify;">FADS is a food ordering web application helping restaurants to feed thier hungry customers.</p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="sdc" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>SDC</h4>
+            <p>Shiavji Degree College Karwar</p>
+          </div> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <!-- slideshow -->
+          <div id="sdcCarousel" class="carousel slide" data-ride="carousel" data-interval="500">  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/portfoliosite/portfolio/sdc (1).PNG" alt="Shivaji Degree College" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/sdc (2).PNG" alt="Shivaji Degree College" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/sdc (3).PNG" alt="Shivaji Degree College" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/sdc (4).PNG" alt="Shivaji Degree College" width="100%">
+              </div>    
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/sdc (5).PNG" alt="Shivaji Degree College" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/sdc (6).PNG" alt="Shivaji Degree College" width="100%">
+              </div>           
+            </div>          
+            <a class="carousel-control-prev" href="#sdcCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#sdcCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- -- -->
+          <p style="text-align: justify;">SDC is a college website developed for Shivaji Degree College Karwar using ASP.NET C# ans SQL Server.</p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="lms" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>LMSKB</h4>
+            <p>LMS with Kiosks and Barcode</p>
+          </div> 
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+           <!-- slideshow -->
+           <div id="lmsCarousel" class="carousel slide" data-ride="carousel" data-interval="500">  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/portfoliosite/portfolio/lms (2).png" alt="LMS" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (3).png" alt="LMS" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (5).png" alt="LMS" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (6).png" alt="LMS" width="100%">
+              </div>    
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (7).png" alt="LMS" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (8).png" alt="LMS" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (9).png" alt="LMS" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/lms (10).png" alt="LMS" width="100%">
+              </div>           
+            </div>          
+            <a class="carousel-control-prev" href="#lmsCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#lmsCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- -- -->
+          <p style="text-align: justify;">LMS is a library Management System developed for Firoze Shah College it includes the features of KIOSKS and bar code scanner and RFID ID Cards.</p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="rac" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>LMSKB</h4>
+            <p>LMS with Kiosks and Barcode</p>
+          </div>
+          <h4 class="modal-title">RentACar </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+           <!-- slideshow -->
+           <div id="racCarousel" class="carousel slide" data-ride="carousel" data-interval="500">  
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/portfoliosite/portfolio/rac (5).PNG" alt="RentACar" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/rac (1).PNG" alt="RentACar" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/rac (2).PNG" alt="RentACar" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/rac (3).PNG" alt="RentACar" width="100%">
+              </div>    
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/rac (4).PNG" alt="RentACar" width="100%">
+              </div> 
+              <div class="carousel-item">
+                <img src="/portfoliosite/portfolio/rac (6).PNG" alt="RentACar" width="100%">
+              </div>                    
+            </div>          
+            <a class="carousel-control-prev" href="#racCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#racCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          <!-- -- -->
+          <p>ASP.NET C# / SQL SERVER / INSTAMOJOAPI </p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="chatbot" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>Chatbot</h4>
+            <p>NLP Chatbot</p>
+          </div>
+          <h4 class="modal-title">ChatBot </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>NodeJS /  Javascript </p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="wallet" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>WALLET</h4>
+            <p>LMS with Kiosks and Barcode</p>
+          </div>
+          <h4 class="modal-title">Wallet </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>SASS / Python / Django / PostgreSQL</p>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="modal fade" id="inprogress1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title">
+            <h4>PEARL INIT</h4>
+            <p>Pearl Init</p>
+          </div>
+          <h4 class="modal-title">In Progress </h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>ReactJS</p>
+        </div>
+      </div>      
+    </div>
+  </div>
+
+
+  <!-- -- -->
 
   <section class="contact" id = "contact">
     <h5>Get in Touch With Me</h5>
