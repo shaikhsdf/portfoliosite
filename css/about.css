@@ -55,10 +55,10 @@ background-color: #233540;
 }
 
 
-.skillhtml, .skillcss, .skilljs, .skillpython, .skillnodejs, .skillreactjs, .skillpostgres, .skilllite, .skillsql, .skilldjango, .skillasp {
+.skillhtml, .skillcss, .skilljs, .skillpython, .skillnodejs, .skillreactjs, .skillpostgres, .skilllite, .skillsql, .skilldjango, .skillasp, .skillgit, .skillaws, .skillazure, .skilldocker {
   transition: transform .2s;
 }
-.skillhtml:hover, .skilldjango:hover, .skillcss:hover, .skilljs:hover, .skillpython:hover, .skillnodejs:hover, .skillreactjs:hover, .skillpostgres:hover, .skilllite:hover, .skillsql:hover, .skillasp:hover{
+.skillhtml:hover, .skilldjango:hover, .skillcss:hover, .skilljs:hover, .skillpython:hover, .skillnodejs:hover, .skillreactjs:hover, .skillgit:hover, .skillpostgres:hover, .skilllite:hover, .skillsql:hover, .skillasp:hover, .skillaws:hover, .skillazure:hover, .skilldocker:hover{
   transform: scale(1.1);
 }
 .photoskill {
